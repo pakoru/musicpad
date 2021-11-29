@@ -1,0 +1,63 @@
+body{
+    background:url(../style/gif15.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-color: #000001;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 30px;
+
+}
+
+.key{
+    text-shadow: 0 0 5px #5fe2f2 ;
+    transition:all 8s;
+}
+
+.playing{
+    transform:scale(1.2);
+    text-shadow: 0 0 10px #fdadff;
+}
+.playing2{
+    transform:scale(1.4);
+    text-shadow: 0 0 10px #00eeff;
+}
+
+.loop{
+    box-shadow: 0 0 10px #e017a1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid 1px #e323be;
+    background-color:#000001;
+    padding: 5px;
+    width: 180px;
+    height: 180px;
+}
+
+.loop p, kbd{
+    margin:0px;
+    font-family: "Cyberpunk-Regular";
+    color:yellow;
+    font-size: 30px;
+}
+
+
+@font-face{
+    font-family:"Cyberpunk-Regular";
+    src:url(../fonts/Cyberpunk-Regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
